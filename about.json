@@ -1,0 +1,11 @@
+{
+  "name": "discourse-halloween-decorations",
+  "about_url": "",
+  "license_url": "https://github.com/discourse/discourse-halloween-decorations/blob/master/LICENSE",
+  "author": "Meghna",
+  "assets": {
+    "spider_web": "assets/spider_web.png",
+    "bat": "assets/bat.jpg"
+  },
+  "component": true
+}
