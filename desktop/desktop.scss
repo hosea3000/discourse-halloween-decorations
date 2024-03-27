@@ -92,7 +92,7 @@
   }
 
   .eye {
-    fill: #AD4E20;
+    fill: #ad4e20;
   }
 
   .shadow {
@@ -254,9 +254,9 @@
   100% {
     transform: translate(0px, 0px) scale(1) rotate(0deg);
   }
-  }
+}
 
-  @keyframes wing1 {
+@keyframes wing1 {
   0% {
     transform: translate(0px, 0px) scale(1) rotate(0deg);
   }
@@ -278,7 +278,7 @@
   100% {
     transform: translate(0px, 0px) scale(1) rotate(0deg);
   }
-  }
+}
 
 @keyframes wing3 {
   0% {
@@ -296,7 +296,8 @@
 // *------------------------------------------------*
 @media all and (min-width: 1200px) {
   #main {
-    &:before, &:after {
+    &:before,
+    &:after {
       content: "";
       display: block;
       top: 4em;
