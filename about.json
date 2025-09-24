@@ -1,7 +1,7 @@
 {
   "name": "Sijiu Halloween Decorations",
-  "about_url": "https://meta.discourse.org/t/halloween-decorations/207572",
-  "license_url": "https://github.com/discourse/discourse-halloween-decorations/blob/master/LICENSE",
+  "about_url": "",
+  "license_url": "https://github.com/hosea3000/discourse-halloween-decorations/blob/master/LICENSE",
   "author": "Meghna",
   "assets": {
     "ghost": "assets/ghost.png",
