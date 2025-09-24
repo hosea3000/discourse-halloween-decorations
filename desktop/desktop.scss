@@ -309,6 +309,7 @@
       background: transparent url($spider_web) top left no-repeat;
       background-size: contain;
       z-index: 1;
+      pointer-events: none; // 图片不会挡住按钮
     }
 
     &::after {
