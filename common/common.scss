@@ -1,0 +1,35 @@
+#halloween-ghost {
+    width: 300px; /* 固定宽度 */
+    height: auto; /* 保持比例 */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(.5);
+    z-index: 10000;
+    opacity: 1;
+    pointer-events: none;
+    transition: opacity .75s ease-in, top .75s ease, transform .75s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    &.ghost-show {
+        transform: translate(-50%, -60%) scale(.6);
+        opacity: 0;
+    }
+}
+@media all and (min-width: 1024px) {
+    #halloween-ghost {
+        transform: translate(-50%, -50%) scale(.75);
+        &.ghost-show {
+            transform: translate(-50%, -60%) scale(.9);
+        }
+    }
+}
+
+
+body {
+    background: transparent url($pumpkin) bottom right no-repeat;
+    background-size: 10%;
+}
+@media all and (min-width: 1024px) {
+    body {
+        background-size: 7%;
+    }
+}

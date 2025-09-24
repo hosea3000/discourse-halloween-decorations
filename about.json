@@ -4,6 +4,8 @@
   "license_url": "https://github.com/discourse/discourse-halloween-decorations/blob/master/LICENSE",
   "author": "Meghna",
   "assets": {
+    "ghost": "assets/ghost.png",
+    "pumpkin": "assets/pumpkin.png",
     "spider_web": "assets/spider_web.png",
     "bat": "assets/bat.jpg"
   },

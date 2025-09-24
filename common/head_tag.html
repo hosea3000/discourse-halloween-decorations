@@ -1,0 +1,21 @@
+<script type="text/discourse-plugin" version="1.4.0">
+const appEvents = api.container.lookup("service:app-events");
+appEvents.on('composer:opened', () => {
+    if (Math.random() < 0.6) {
+        let halloweenGhost = document.createElement("img");
+        halloweenGhost.id = "halloween-ghost";
+        console.log(settings)
+        halloweenGhost.src = settings.theme_uploads.ghost;
+
+        document.getElementsByTagName("body")[0].appendChild(halloweenGhost);
+        setTimeout(function () {
+            halloweenGhost.classList.add("ghost-show");
+        }, 0);
+        setTimeout(function(){
+            halloweenGhost.remove();
+        }, 1000);
+    }
+});
+
+api.replaceIcon('face-smile', 'skull');
+</script>
